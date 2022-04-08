@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: black;
+    color: white;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    
+}
+ header > h1 {
+    font-family: 'Passion One', cursive;
+    font-variant: small-caps;
+    font-size: 4em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+ }
+header > p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+    font-size: 4.5vw;
+}
+header p>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+header p>a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+}
+main section {
+    font-size: 4.5vw;
+    line-height: 175%;
+    padding: 40px;
+    font-family: 'Sriracha', cursive;
+
+}
+main section.book {
+    background-image: url(projeto-cordel-master/imagens/background002.jpg);
+    background-color: rgba(0, 0, 0, 0.493);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.336);
+}
+main section.book >p {
+    background-color: rgba(0, 0, 0, 0.445);
+    width: fit-content;
+    padding: 10px;
+}
+main section.flower {
+    background-image: url(projeto-cordel-master/imagens/background001.jpg);
+    background-color: rgba(0, 0, 0, 0.493);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.336);
+}
+main section.flower > p {
+    background-color: rgba(0, 0, 0, 0.445);
+    width: fit-content;
+    padding: 10px;
+}
+footer {
+    background-color: black;
+    padding: 8px;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+footer p>a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 9px 3px; 
+}
+footer p>a:hover {
+    background-color: white;
+    color: black;
+}
